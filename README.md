@@ -9,9 +9,6 @@ Script bash para generar a partir de una imagen, distintas imagenes con las dife
 Es necesario tener instalado Imagemagick en el path de tu terminal. Esto se hace con el comando
 
 
-<img width="752" alt="Captura de pantalla 2023-11-12 a la(s) 8 37 40 p m" src="https://github.com/paps96/android_pic_importer/assets/93355667/00009593-d9b9-40be-aff1-9ae4091eb3bb">
-
-
 __En mac:__
 
 ```
@@ -27,6 +24,8 @@ __Puedes verificar la instalación de __ImageMagick__ con el comando:
 ```
 identify --version
 ```
+
+<img width="752" alt="Captura de pantalla 2023-11-12 a la(s) 8 37 40 p m" src="https://github.com/paps96/android_pic_importer/assets/93355667/2989ab29-48ab-4c3e-b57a-6c8cb3459d8c">
 
 
 ## Uso
