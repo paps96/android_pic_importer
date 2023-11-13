@@ -1,12 +1,16 @@
 # android_pic_importer
 
-##Descripción
+## Descripción
 
-Script bash para generar a partir de una imagen, distintas imagenes con diferentes resoluciones para un proyecto Android, con inspiración en Android drawable importer. Por ahora solo funciona con imágenes .png
+Script bash para generar a partir de una imagen, distintas imagenes con las diferentes resoluciones ajustadas para los distintos tamaños de pantalla para un proyecto Android, con inspiración en Android drawable importer. Por ahora solo funciona con imágenes .png
 
-##Instalación
+## Instalación
 
 Es necesario tener instalado Imagemagick en el path de tu terminal. Esto se hace con el comando
+
+
+<img width="752" alt="Captura de pantalla 2023-11-12 a la(s) 8 37 40 p m" src="https://github.com/paps96/android_pic_importer/assets/93355667/00009593-d9b9-40be-aff1-9ae4091eb3bb">
+
 
 __En mac:__
 
@@ -19,11 +23,15 @@ __En Ubuntu:__
 sudo apt install imagemagick
 ```
 
-##Uso
+__Puedes verificar la instalación de __ImageMagick__ con el comando:
+```
+identify --version
+```
+
+
+## Uso
 
 Simplemente posiciona el script "crearImagenesAndroid.sh" en la carpeta donde se encuentre tus imagenes, que utilizarás en tu proyecto android. Recomiendo utilizar imagenes de alta resolución.
-
-<img width="752" alt="Captura de pantalla 2023-11-12 a la(s) 8 37 40 p m" src="https://github.com/paps96/android_pic_importer/assets/93355667/e7af2278-dccf-40c3-8d22-7c3de2400bbe">
 
 
 Escribe el comando y pulsa __Enter__:
