@@ -1,9 +1,11 @@
 # android_pic_importer
 
 ##Descripción
+
 Script bash para generar a partir de una imagen, distintas imagenes con diferentes resoluciones para un proyecto Android, con inspiración en Android drawable importer. Por ahora solo funciona con imágenes .png
 
 ##Instalación
+
 Es necesario tener instalado Imagemagick en el path de tu terminal. Esto se hace con el comando
 
 __En mac:__
